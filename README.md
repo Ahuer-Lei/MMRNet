@@ -7,7 +7,7 @@ Official implementation of Multimodal Remote Sensing Image Registration via Moda
  
 1.Please modify the path where the results are stored in the build_table.py
 
-2.Please modify the dataset path in dataset.py and run the following code:
+2.Please modify the dataset path in trainer and run the following code:
 ```bash
 python main.py
 ```
