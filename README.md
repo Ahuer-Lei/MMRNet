@@ -4,7 +4,7 @@ Official implementation of Multimodal Remote Sensing Image Registration via Moda
 [paper link](https://ieeexplore.ieee.org/document/11021679)
 
 ## MRSR dataset
-[link](https://pan.baidu.com/s/1xReN95NhaS27Ozg4c3MBKQ?pwd=t2th 提取码: t2th)
+[link](https://pan.baidu.com/s/1xReN95NhaS27Ozg4c3MBKQ?pwd=t2th, code: t2th)
 
 ## Train
  
