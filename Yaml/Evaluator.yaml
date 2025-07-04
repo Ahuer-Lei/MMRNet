@@ -1,0 +1,30 @@
+#####
+name: Evaluator
+port: 5001  #  port parameters for visdom
+
+# 2D dataset
+dim: 2
+dataroot: '/data/zcl3/CVPR2025/Major_revision/dataset/OSdataset/train/'  # root directory of the train dataset
+testroot: '/data/zcl3/CVPR2025/Major_revision/dataset/OSdataset/test/'   # test for image2image translation
+
+# affine
+rotation: 10        # range of rotation if use affine
+translation: 0.1    # range of translation if use affine
+scaling: 0.12      # range of scaling if use affine
+
+# train
+size: [256, 256]
+epoch: 0      # starting epoch
+n_epochs: 1000     
+n_cpu: 8
+batchSize: 24   # size of the batches
+lr: 0.0001                   # initial learning rate
+input_nc: 2         
+output_nc: 1                  
+cuda: True
+loss: 'L1'
+
+# output root
+train_log_root: '/data/zcl3/CVPR2025/Major_revision/code/Our/Our_os/log/Evaluator/train'
+test_log_root: '/data/zcl3/CVPR2025/Major_revision/code/Our/Our_os/log/Evaluator/test'
+save_root: '/data/zcl3/CVPR2025/Major_revision/code/Our/Our_os/checkpoint/Evaluator/'               # save weight of model

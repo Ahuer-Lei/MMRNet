@@ -1,0 +1,11 @@
+No.0 Epoch: l1_loss:0.084625 | LR:0.000100 
+No.0 Epoch: l1_loss:0.086754 | LR:0.000100 
+No.0 Epoch: l1_loss:0.086295 | LR:0.000100 
+No.0 Epoch: l1_loss:0.086251 | LR:0.000100 
+No.1 Epoch: l1_loss:0.075464 | LR:0.000100 
+No.2 Epoch: l1_loss:0.072029 | LR:0.000100 
+No.3 Epoch: l1_loss:0.070064 | LR:0.000100 
+No.4 Epoch: l1_loss:0.068765 | LR:0.000100 
+No.5 Epoch: l1_loss:0.067533 | LR:0.000100 
+No.6 Epoch: l1_loss:0.066315 | LR:0.000100 
+No.7 Epoch: l1_loss:0.065290 | LR:0.000100 

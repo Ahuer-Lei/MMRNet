@@ -1,0 +1,9 @@
+No.0 Epoch: l1loss:0.059769 
+No.0 Epoch: l1loss:0.062179 
+No.1 Epoch: l1loss:0.056258 
+No.2 Epoch: l1loss:0.055969 
+No.3 Epoch: l1loss:0.057346 
+No.4 Epoch: l1loss:0.055341 
+No.5 Epoch: l1loss:0.053534 
+No.6 Epoch: l1loss:0.051108 
+No.7 Epoch: l1loss:0.052924 

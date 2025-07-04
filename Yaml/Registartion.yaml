@@ -1,0 +1,34 @@
+#####
+name: Registration
+port: 9006   #  port parameters for visdom
+
+PME_root: '/data/zcl3/CVPR2025/Major_revision/code/our_non_map/train_PME_Non_rigid/output/PME/net_Evaluator_googlemap.pth'
+
+# 2D
+dim: 2
+dataroot: '/data/zcl3/CVPR2025/Major_revision/dataset/OSdataset/train/'    # root directory of the train dataset
+testroot: '/data/zcl3/CVPR2025/Major_revision/dataset/OSdataset/test/'   # root directory of the test dataset
+size: [256, 256]
+
+# affine
+rotation: 10        # range of rotation if use affine
+translation: 0.1    # range of translation if use affine
+scaling: 0.12      # range of scaling if use affine
+
+# train
+epoch: 0        # starting epoch
+n_epochs: 1200      # How often do you want to display output images during training
+batchSize: 8               # size of the batches
+lr: 0.0001                   # initial learning rate
+input_nc: 2         
+output_nc: 1
+mode: 'PME'  #Gen  ，Eva ， Tra       # Generator ,Evaluator ，traditional Multimodal operator
+sim: "MI" #   MI  NCC  MIND   # similarity loss
+# unet_features: [[16, 32, 32, 32, 32], [32, 32, 32, 32, 16, 16]]
+cuda: True                
+n_cpu: 8
+
+# output
+train_log_root: '/DATA/zhangchunlei/TPAMI2025/Major_revision/code/Work2/Our_os/log/Registration/train'
+test_log_root: '/DATA/zhangchunlei/TPAMI2025/Major_revision/code/Work2/Our_os/log/Registration/test'
+save_root: '/DATA/zhangchunlei/TPAMI2025/Major_revision/code/Work2/Our_os/checkpoint/Registration/'   # save weight of model
